@@ -1,0 +1,1 @@
+print "Selam dünya\n";
