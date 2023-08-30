@@ -92,7 +92,7 @@ func yazdir(metin string) {
 }
 ```
 
-Ardından bu fonksiyonu çağırmak istediğimde başına `go` yazacağım ve fonksiyon başka bir thread'de çalışmaya başlayacak. Bunun ardından dil, başına `go` yazılan fonksiyonu arka planda çalıştıracak ve programın akışını kesmeden diğer kodları çalıştıracaktır.
+Ardından bu fonksiyonu çağırmak istediğimde başına `go` yazacağım ve fonksiyon başka bir thread'de çalışmaya başlayacak. Bunun ardından dil, başına `go` yazılan fonksiyonu arka planda çalıştıracak ve programın akışını kesmeden diğer satırları çalıştırmaya devam edecektir.
 
 ```go
 func main() {
