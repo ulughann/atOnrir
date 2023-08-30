@@ -16,6 +16,7 @@ Go, garbage collection kullanarak bu sorumluluğu üstünüzden almaktadır.
 Garbage collection ile birlikte,
 Go hız olarak Rust ve C++ gibi sistem dillerinin gerisinde kalsada
 derlenme hızı açısından en hızlı dillerden biridir.
+
 ![rustc](rustc.png)
 ![go](go.png)
 
