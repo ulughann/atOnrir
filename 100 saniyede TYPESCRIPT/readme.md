@@ -1,0 +1,1 @@
+# 100 Saniyede TypeScript
