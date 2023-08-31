@@ -30,8 +30,8 @@ console.log(sonuç); // NaN
 
 Ancak kodu çalıştırdığımızda ve bu kısma geldiğimizde sonuçtan dönüt olarak NaN yani Not a Number aldığımızı farkedeceğiz. Yani Javascript, çok olası bir hatayı, zayıf yazılan bir dil olduğu için tanıyamadı
 
-Şimdi aynı şeyi Typescript ile deneyelim
-Bu sefer argümanlarımızın ve döndüğümüz değerin tipini belirteceğiz ve kod bize henüz çalıştırmasak bile bir hata verecek.
+Şimdi aynı şeyi Typescript ile deneyelim ve
+sefer argümanlarımızın ve döndüğümüz değerin tipini belirtelim.
 
 ```typescript
 function kareKök(n: number): number {
@@ -41,3 +41,10 @@ function kareKök(n: number): number {
 let sonuç = kareKök("selam"); // Hata
 console.log(sonuç);
 ```
+
+```
+Argument of type 'string' is not assignable to parameter of type 'number'
+```
+
+Gördüğünüz üzere yazdığımız kod bize henüz çalıştırmasak bile bir hata verecek.
+
