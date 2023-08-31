@@ -110,3 +110,5 @@ Bu ve bundan sonraki bütün videolarımın metinlerini, kaynakçalarını ve ko
 [Go Documentations](https://go.dev/doc/),
 [Go vs Python](https://oxylabs.io/blog/go-vs-python#:~:text=Clear%20and%20easy%20readability.,commonly%20used%20in%20container%20technologies.),
 [LanguageCompilationSpeed](https://wiki.alopex.li/LanguageCompilationSpeed)
+
+Special thanks to [Fireship](https://www.youtube.com/@Fireship) as always.
