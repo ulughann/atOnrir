@@ -36,7 +36,78 @@ Php, dinamik bir dil olduğu için değişkenlerin tiplerini belirtmenize gerek 
 ?>
 ```
 
-Günümüzde büyük ihtimalle html'in içinde php kodu yazmak yerine Laravel gibi modern bir framework kullanıyor olacaksınız.
+Php, her dilde bekleyeceğiniz modern özelliklerin çoğunu bulundurmaktadır.
+Örneğin, koşul ifadeleri, döngüler, switch ve match ifadeleri, sınıflar ve daha fazlası.
+
+```php
+<?php
+  $sayi = 5;
+  if ($sayi > 10) {
+    echo "Sayı 10'dan büyük";
+  } else {
+    echo "Sayı 10'dan küçük";
+  }
+?>
+```
 
 
+```php
+<?php
+  for ($i = 0; $i < 10; $i++) {
+    echo $i;
+  }
+?>
+```
+
+```php
+<?php
+  $sayi = 0;
+  while ($sayi < 10) {
+    echo $sayi;
+    $sayi++;
+  }
+?>
+```
+
+```php
+<?php
+  $sayi = 5;
+  switch ($sayi) {
+    case 1:
+      echo "Sayı 1";
+      break;
+    case 2:
+      echo "Sayı 2";
+      break;
+    default:
+      echo "Sayı 1 ve 2 değil";
+  }
+?>
+```
+
+```php
+<?php
+$sayi = 5;
+match ($sayi) {
+  1 => echo "Sayı 1";
+  2 => echo "Sayı 2";
+  default => echo "Sayı 1 ve 2 değil";
+}
+```
+
+
+```php
+<?php
+  public class Onrir {
+    public $aboneSayısı = 850; // teşekkürler <3
+    
+    public function __construct($aboneSayısı) {
+      $this->aboneSayısı = $aboneSayısı;
+    }
+  }
+```
+
+Çoğu kişi tarafından ölü bir dil olarak görülsede PHP günümüzde güncellemeler almaya ve her gün daha iyi bir dil olmaya çalışmaya devam ediyor. 
+
+Fakat bu gün yeni bir projeye başlayacak olursanız büyük ihtimalle html'in içinde php kodu yazmak yerine Laravel gibi modern bir framework kullanıyor olacaksınız.
 
