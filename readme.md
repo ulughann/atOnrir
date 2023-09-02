@@ -14,3 +14,5 @@ Bu proje @onrir youtube kanalında yayınlanan ve yayınlanmaya devam edecek bü
 
 ## Fikir aşamasında
 - [100 Saniyede Swift](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%SWIFT)
+- 
+- [100 Saniyede PHP](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%PHP)
