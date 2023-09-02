@@ -7,6 +7,10 @@ Php, 1994 yılında Rasmus Lerdorf tarafından geliştirilen, sunucu taraflı, g
 
 Php, html'in içine embed edilen ilk dillerden biridir. Yani php kodu yazmaya başlamak için sonu nokta php ile biten bir dosya oluşturun ve içinde php tagını açarak kodlarınızı yazmaya başlayın.
 
+Echo kelimesi ile ekrana bir şeyler yazdırabilirsiniz.
+
+Php'nin söz dizimi bazılarınızın tanıyor olabileceği `perl` programlama dilinden esimlenmiştir.
+
 ```php
 <html>
   <body>
@@ -37,8 +41,8 @@ Php, dinamik bir dil olduğu için değişkenlerin tiplerini belirtmenize gerek 
 ```
 
 Php, her dilde bekleyeceğiniz modern özelliklerin çoğunu bulundurmaktadır.
-Örneğin, koşul ifadeleri, döngüler, switch ve match ifadeleri, sınıflar ve daha fazlası.
 
+Örneğin bir koşul ifadesi oluşturmak için if ve else kelimelerini,
 ```php
 <?php
   $sayi = 5;
@@ -50,6 +54,7 @@ Php, her dilde bekleyeceğiniz modern özelliklerin çoğunu bulundurmaktadır.
 ?>
 ```
 
+Bir döngü oluşturmak için for ve while kelimelerini,
 
 ```php
 <?php
@@ -69,45 +74,47 @@ Php, her dilde bekleyeceğiniz modern özelliklerin çoğunu bulundurmaktadır.
 ?>
 ```
 
+Switch tipinde bir koşul ifadesi oluşturmak için switch kelimesini kullanabilirsiniz.
+
 ```php
 <?php
-  $sayi = 5;
-  switch ($sayi) {
-    case 1:
-      echo "Sayı 1";
+  $uye = false;
+  switch ($uye) {
+    case false:
+      echo "Seni discord sunucumuza bekliyoruz :D";
       break;
-    case 2:
-      echo "Sayı 2";
+    case true:
+      echo "Aramıza katıldığın için teşekkürler.";
       break;
     default:
-      echo "Sayı 1 ve 2 değil";
+      echo "default";
   }
 ?>
 ```
 
+Php 8 ile birlikte, Rust'a benzer bir match ifadesi de dilin içine eklenmiştir.
+
 ```php
 <?php
-$sayi = 5;
-match ($sayi) {
-  1 => echo "Sayı 1";
-  2 => echo "Sayı 2";
-  default => echo "Sayı 1 ve 2 değil";
+$uye = false;
+match ($uye) {
+  false => echo "Seni discord sunucumuza bekliyoruz :D";
+  true => echo "Aramıza katıldığın için teşekkürler.";
+  default => echo "default";
 }
 ```
 
+Her ne kadar html'in içinde php yazmak çok zevkli olsada bu gün yeni bir projeye başlayacak olursanız büyük ihtimalle html'in içinde php kodu yazmak yerine Laravel gibi modern bir framework kullanıyor olacaksınız.
 
-```php
-<?php
-  public class Onrir {
-    public $aboneSayısı = 850; // teşekkürler <3
-    
-    public function __construct($aboneSayısı) {
-      $this->aboneSayısı = $aboneSayısı;
-    }
-  }
-```
+Günümüzde PHP; Wordpress, Facebook, Wikipedia, Slack, Tumblr gibi bir çok site tarafından kullanılmaktadır. 
 
-Çoğu kişi tarafından ölü bir dil olarak görülsede PHP günümüzde güncellemeler almaya ve her gün daha iyi bir dil olmaya çalışmaya devam ediyor. 
+Bu videoyu sizlere biraz motivasyon vererek bitirmek istiyorum,
+Php, 2012 yılından beri düşüşte olmasına ve bir çok kişi tarafından dünyanın en kötü programlama dillerinden birisi olarak anılmasına rağmen yılmamış, çalışmış ve günümüzde bir çok modern özelliğe sahip bir programlama dili olmuştur.
 
-Fakat bu gün yeni bir projeye başlayacak olursanız büyük ihtimalle html'in içinde php kodu yazmak yerine Laravel gibi modern bir framework kullanıyor olacaksınız.
+O yüzden sizlerde, hedeflerinizi bırakmayın ve çalışmaya devam edin.
 
+Görüşmek üzere.
+
+# Kaynakça
+- [Stackoverflow geliştirici anket](https://survey.stackoverflow.co/2023/)
+- [Languish](https://tjpalmer.github.io/languish/)
