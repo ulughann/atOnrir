@@ -5,6 +5,8 @@ Php, 1994 yılında Rasmus Lerdorf tarafından geliştirilen, sunucu taraflı, g
 ![languish](image.png)
 ![stackoverflow](image-1.png)
 
+Günümüzde PHP; Wordpress, Facebook, Wikipedia, Slack, Tumblr gibi bir çok site tarafından kullanılmaktadır.
+
 Php, html'in içine embed edilen ilk dillerden biridir. Yani php kodu yazmaya başlamak için sonu nokta php ile biten bir dosya oluşturun ve içinde php tagını açarak kodlarınızı yazmaya başlayın.
 
 Echo kelimesi ile ekrana bir şeyler yazdırabilirsiniz.
@@ -25,7 +27,7 @@ Bir değişken oluşturmak için $ işaretini kullanın ve ardından değişkeni
 
 ```php
 <?php
-  $isim = "Abone ol!";
+  $isim = "Reshy!";
   echo $isim;
 ?>
 ```
@@ -35,7 +37,7 @@ Php, dinamik bir dil olduğu için değişkenlerin tiplerini belirtmenize gerek 
 ```php
 <?php
   function selam(string $isim) {
-    echo "merhaba" + $isim;
+    echo "merhaba ", $isim;
   }
 ?>
 ```
@@ -43,6 +45,7 @@ Php, dinamik bir dil olduğu için değişkenlerin tiplerini belirtmenize gerek 
 Php, her dilde bekleyeceğiniz modern özelliklerin çoğunu bulundurmaktadır.
 
 Örneğin bir koşul ifadesi oluşturmak için if ve else kelimelerini,
+
 ```php
 <?php
   $sayi = 5;
@@ -106,15 +109,16 @@ match ($uye) {
 
 Her ne kadar html'in içinde php yazmak çok zevkli olsada bu gün yeni bir projeye başlayacak olursanız büyük ihtimalle html'in içinde php kodu yazmak yerine Laravel gibi modern bir framework kullanıyor olacaksınız.
 
-Günümüzde PHP; Wordpress, Facebook, Wikipedia, Slack, Tumblr gibi bir çok site tarafından kullanılmaktadır. 
-
 Bu videoyu sizlere biraz motivasyon vererek bitirmek istiyorum,
-Php, 2012 yılından beri düşüşte olmasına ve bir çok kişi tarafından dünyanın en kötü programlama dillerinden birisi olarak anılmasına rağmen yılmamış, çalışmış ve günümüzde bir çok modern özelliğe sahip bir programlama dili olmuştur.
+Php, 2012 yılından beri düşüşte olmasına ve bir çok kişi tarafından dünyanın en kötü programlama dillerinden birisi olarak anılmasına rağmen yılmamış, çalışmış ve günümüzde bir çok modern özelliğe sahip olan ve kullanan geliştiricilerin sevdiği bir dil haline gelmiştir.
 
 O yüzden sizlerde, hedeflerinizi bırakmayın ve çalışmaya devam edin.
 
 Görüşmek üzere.
 
 # Kaynakça
+
 - [Stackoverflow geliştirici anket](https://survey.stackoverflow.co/2023/)
 - [Languish](https://tjpalmer.github.io/languish/)
+
+Special thanks to [Fireship](https://www.youtube.com/@Fireship) as always.
