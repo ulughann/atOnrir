@@ -6,8 +6,9 @@ Bu proje @onrir youtube kanalında yayınlanan ve yayınlanmaya devam edecek bü
 
 ## Videolar
 - [100 Saniyede GO](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%20GO)
-
 - [100 Saniyede TypeScript](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%20TYPESCRIPT)
+- [100 Saniyede PHP](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%PHP)
+
 
 ## Shortlar
 - [10 dilde HELLO WORLD](https://github.com/onrirr/atOnrir/tree/main/10%20dilde%20HELLO%20WORLD)
@@ -15,4 +16,3 @@ Bu proje @onrir youtube kanalında yayınlanan ve yayınlanmaya devam edecek bü
 ## Fikir aşamasında
 - [100 Saniyede Swift](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%SWIFT)
 - 
-- [100 Saniyede PHP](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%PHP)
