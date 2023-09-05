@@ -11,4 +11,3 @@ Günümüzde bilgisayarınıza linux kurmak isterseniz büyük ihtimalle; debian
 Bir dağıtımın klonunu oluşturan yani üzerine eklemeler yapan dağıtımlar "forklar" olarak adlandırılır. Örneğin, Ubuntu ve Pardus, Debian'ın forklarıdır. 
 
 Linux, açık kaynaklı bir işletim sistemidir ve günümüzde çoğunluğu C programlama dili ile yazılmıştır.
-
