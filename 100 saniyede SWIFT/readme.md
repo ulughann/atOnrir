@@ -72,6 +72,18 @@ aboneOl(kullanici: user)
 
 ```
 
-Obje tabanlı
+Obje tabanlı programlama yaparken bir sınıf oluşturmak için `class` kelimesini kullanın.
+
+```swift
+class Kullanici {
+    var isim: String;
+    var abone: Bool;
+
+    init(isim: String, abone: Bool) {
+        self.isim = isim;
+        self.abone = abone;
+    }
+}
+```
 
 İzlediğiniz için teşekkürler, abone olup beğenmeyi unutmayın, görüşmek üzere.
