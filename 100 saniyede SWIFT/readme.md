@@ -6,11 +6,11 @@ Stackoverflow ve Github verilerine göre dünyanın en popüler 18, Stackoverflo
 ![Alt text](image.png)
 ![Alt text](image-1.png)
 
-Swift, iOS için mobil uygulamaları, MacOS için masaüstü uygulamaları ve kısacası Apple ekosistemindeki neredeyse herşeyi yapmak için kullanılabilir.
+Swift, iOS için mobil uygulamaları, MacOS için masaüstü uygulamaları ve kısacası Apple ekosistemindeki neredeyse herşeyi yaparken ruhunuzun ve kazancınızın %30unu App Store'a teslim etmenizi kolaylaştıran bir programlama dilidir.
 
 Apple tarafından yapılmış olsa da açık kaynaklı bir dildir ve sanılanın aksine interpreted değil compiled yani makina koduna dönüşen bir dildir.
 
-Bu sayede Swift, sanılanın aksine oldukça hızlı bir dildir. 
+Bu sayede Swift, sanılanın aksine oldukça hızlıdır.
 
 Swift kodu yazmaya başlamak için evinize en yakın Apple mağazısına girin ve karşınıza çıkan en pahalı Macbook'u satın alın. Ardından apple ekosisteminden çıkmadığımıza emin olmak için hali hazırda var olan kod editörünüzü çöpe atın ve yerine xCode indirin.
 
@@ -24,7 +24,7 @@ Ekrana bir çıktı yazdırmak için print fonksiyonunu,
 print("Hello World")
 ```
 
-Bir değişken oluşturmak için de var kelimesini kullanabilirsiniz.
+Bir değişken oluşturmak için ise de var kelimesini kullanabilirsiniz.
 
 ```swift
 var dil = "Swift"
@@ -38,7 +38,7 @@ var dil: String = "Swift"
 print(dil)
 ```
 
-Func kelimesini kullanarak bir fonksiyon,
+Aynı zamanda `func` kelimesini kullanarak bir fonksiyon,
 
 ```swift
 func aboneOl(kullanıcı: String) {
@@ -46,31 +46,21 @@ func aboneOl(kullanıcı: String) {
 }
 ```
 
-
-Obje tabanlı programlama için class kelimesi ile de bir sınıf oluşturabiliriz.
-Bir constructor fonksiyonu oluşturmak için init fonksiyonunu kullanabiliriz.
+Struct kelimesini kullanarak ise bir yapı oluşturabiliriz.
 
 ```swift
-class kullanıcı {
-    var isim: String
-    var abone: Bool
-
-    init(isim: String, abone: Bool) {
-        self.isim = isim
-        self.abone = abone
-    }
+struct Kullanici {
+    var isim: String;
+    var abone: Bool;
 }
-``` 
+```
+
+⏬⏬⏬⏬⏬⏬
 
 ```swift
-class Kullanici {
-    var isim: String
-    var abone: Bool
-
-    init(isim: String, abone: Bool) {
-        self.isim = isim
-        self.abone = abone
-    }
+struct Kullanici {
+    var isim: String;
+    var abone: Bool;
 }
 
 func aboneOl(kullanici: Kullanici) {
@@ -81,5 +71,7 @@ var user = Kullanici(isim: "Abruş", abone: true)
 aboneOl(kullanici: user)
 
 ```
+
+Obje tabanlı
 
 İzlediğiniz için teşekkürler, abone olup beğenmeyi unutmayın, görüşmek üzere.
