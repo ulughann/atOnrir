@@ -72,7 +72,8 @@ aboneOl(kullanici: user)
 
 ```
 
-Obje tabanlı programlama yaparken bir sınıf oluşturmak için `class` kelimesini kullanın.
+Obje tabanlı programlama yaparken bir sınıf oluşturmak için `class` kelimesini kullanın ve init fonksiyonunu oluşturarak bir constructor yani bir jeneratör oluşturun.
+![Alt text](image-2.png)
 
 ```swift
 class Kullanici {
@@ -85,5 +86,6 @@ class Kullanici {
     }
 }
 ```
+
 
 İzlediğiniz için teşekkürler, abone olup beğenmeyi unutmayın, görüşmek üzere.
