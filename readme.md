@@ -16,3 +16,4 @@ Bu proje @onrir youtube kanalında yayınlanan ve yayınlanmaya devam edecek bü
 ## Fikir aşamasında
 - [100 Saniyede Swift](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%SWIFT)
 - [100 Saniyede Linux](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%LINUX)
+- [100 Saniyede SQL](https://github.com/onrirr/atOnrir/tree/main/100%20saniyede%SQL)
