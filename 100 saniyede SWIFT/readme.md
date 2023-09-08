@@ -15,3 +15,69 @@ Swift kodu yazmaya başlamak için Apple mağazısına girin ve karşınıza ç�
 Tabiki şaka yapıyorum, sitesine girin ve kullandığınız işletim sistemi için Swift'i indirin ve ardından en sevdiğiniz kod editöründe sonu .swift ile biten bir dosya oluşturun.
 
 Eğer benim gibi Windows kullanıyorsanız ve Swift kurmayı başaramadıysanız büyük ihtimalle Swift for windows gibi bir projeyi kullanmanız gerekecektir.
+
+Ekrana bir çıktı yazdırmak için print fonksiyonunu,
+
+```swift
+print("Hello World")
+```
+
+Bir değişken oluşturmak için de var kelimesini kullanabilirsiniz.
+
+```swift
+var dil = "Swift"
+print(dil)
+```
+
+Swift varsayılan olarak değişkenlerimizin tiplerini anlayacaktır fakat Typescript gibi bir iki nokta üst üste işaretiyle değişkenin tipini belirtebiliriz.
+
+```swift
+var dil: String = "Swift"
+print(dil)
+```
+
+Func kelimesini kullanarak bir fonksiyon,
+
+```swift
+func aboneOl(kullanıcı: String) {
+    print("Abone olundu")
+}
+```
+
+
+Obje tabanlı programlama için class kelimesi ile de bir sınıf oluşturabiliriz.
+Bir constructor fonksiyonu oluşturmak için init fonksiyonunu kullanabiliriz.
+
+```swift
+class kullanıcı {
+    var isim: String
+    var abone: Bool
+
+    init(isim: String, abone: Bool) {
+        self.isim = isim
+        self.abone = abone
+    }
+}
+``` 
+
+```swift
+class Kullanici {
+    var isim: String
+    var abone: Bool
+
+    init(isim: String, abone: Bool) {
+        self.isim = isim
+        self.abone = abone
+    }
+}
+
+func aboneOl(kullanici: Kullanici) {
+    print("Abone olundu")
+}
+
+var user = Kullanici(isim: "Abruş", abone: true)
+aboneOl(kullanici: user)
+
+```
+
+İzlediğiniz için teşekkürler, abone olup beğenmeyi unutmayın, görüşmek üzere.
